@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Jack smith",
+      "username": "jack",
+      "email": "jack@gmail.com",
+      "phone": "9842356339",
+      "website": "jack.com"
+    },
+    {
+      "id": "3",
+      "name": "gold smith",
+      "username": "gold",
+      "email": "gold@gmail.com",
+      "phone": "9842332269",
+      "website": "gold.com"
+    },
+    {
+      "id": "4",
+      "name": "williams jr",
+      "username": "williams",
+      "email": "willy@gmail.com",
+      "phone": "0942356369",
+      "website": "willy.com"
+    },
+    {
+      "id": "5",
+      "name": "browney",
+      "username": "brown",
+      "email": "brown@gmail.com",
+      "phone": "9844774469",
+      "website": "brown.com"
+    },
+    {
+      "id": "6",
+      "name": "Sukumar",
+      "email": "sukku@gmail.com",
+      "phone": "9842256742"
+    },
+    {
+      "id": "7",
+      "name": "sassy updated",
+      "email": "sam@gmail.com",
+      "phone": "9440875778"
+    },
+    {
+      "id": 8,
+      "name": "virat",
+      "email": "virat@gmail.com",
+      "phone": "37268491208"
+    }
+  ]
+}
