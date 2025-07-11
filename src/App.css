@@ -1,0 +1,44 @@
+body, #root {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #74ABE2 0%, #5563DE 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-wrapper {
+  padding: 20px;
+}
+
+.main-heading {
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #5563DE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3b4bb0;
+}

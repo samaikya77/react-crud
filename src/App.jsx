@@ -1,23 +1,28 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './Components/Home'
-import Create from './Components/Create'
-import Update from './Components/Update'
-import Read from './Components/Read'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home';
+import Read from './Components/Read';
+import Create from './Components/Create';
+import Update from './Components/Update';
+
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-        <Route path='/' element={<Home />}> </Route>
-        <Route path='/create' element={<Create />}> </Route>
-        <Route path='/update/:id' element={<Update />}> </Route>
-        <Route path='/read/:id' element={<Read />}> </Route>
-
-    </Routes>
-    </BrowserRouter>
-  )
+    <div className="app-wrapper">
+      <h1 className="main-heading">My React CRUD App</h1>
+      <div className="container">
+        <Router>
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/read' element={<Read />} />
+            <Route path='/create' element={<Create />} />
+            <Route path='/update' element={<Update />} />
+          </Routes>
+        </Router>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
