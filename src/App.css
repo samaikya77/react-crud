@@ -1,3 +1,4 @@
+/* Background for full page */
 body, #root {
   min-height: 100vh;
   margin: 0;
@@ -5,10 +6,7 @@ body, #root {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.app-wrapper {
-  padding: 20px;
-}
-
+/* Main heading */
 .main-heading {
   color: #ffffff;
   text-align: center;
@@ -17,16 +15,13 @@ body, #root {
   letter-spacing: 1px;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.app-wrapper {
+  padding: 20px;
 }
 
+
+
+/* Button styles */
 button {
   background-color: #5563DE;
   color: white;
@@ -38,7 +33,6 @@ button {
   font-size: 0.9rem;
   transition: background-color 0.3s;
 }
-
 button:hover {
   background-color: #3b4bb0;
 }
