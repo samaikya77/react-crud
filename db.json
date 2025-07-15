@@ -1,5 +1,13 @@
 {
   "users": [
+     {
+      "id": "1",
+      "name": "James jr",
+      "username": "james",
+      "email": "jam@gmail.com",
+      "phone": "9842356339",
+      "website": "jam.com"
+    },
     {
       "id": "2",
       "name": "Jack smith",
